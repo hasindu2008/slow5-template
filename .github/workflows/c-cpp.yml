@@ -15,7 +15,7 @@ jobs:
     - name: install packages
       run: sudo apt-get update && sudo apt-get install -y zlib1g-dev gcc
     - name: build
-      run:  make -j8
+      run:  make
     - name: test
       run: make test
   os_x_10:
