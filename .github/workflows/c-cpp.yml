@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: recursive    
     - name: install packages
       run: sudo apt-get update && sudo apt-get install -y zlib1g-dev gcc
     - name: build
@@ -23,6 +25,8 @@ jobs:
     runs-on: macos-10.15
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: recursive    
     - name: build
       run: make
     - name: test
