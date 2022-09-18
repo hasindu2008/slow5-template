@@ -40,22 +40,5 @@ Thumbs.db
 # Editor generated files #
 /.vscode
 
-# autotools #
-/aclocal.m4
-/src/config.h.in~
-/Makefile.in
-/config.status
-/stamp-h1
-/missing
-/install-sh
-/compile
-/depcomp
-.deps
-autom4te.cache
-/configure
-/config.h
-/src/config.h.in
-/config.mk
-
 # binaries
 /tool
