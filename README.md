@@ -67,7 +67,7 @@ The simple shell script under [test/test.sh](test/test.sh) executes the tool and
 
 ## GitHub workflow
 
-A CI like GitHub actions is pretty useful for automatically testing on various environments. A [simple workflow configuration]((.github/workflows/c-cpp.yml)) has been provided that sets up two environments: ubuntu latest and MacOS. The workflow configurations will compile the project and will execute the *test.sh* script. Every time you commit something, GitHub actions run on GitHub servers and will report the [status](https://github.com/hasindu2008/slow5-template/actions/workflows/c-cpp.yml).
+A CI like GitHub actions is pretty useful for automatically testing on various environments. A [simple workflow configuration](.github/workflows/c-cpp.yml) has been provided that sets up two environments: ubuntu latest and MacOS. The workflow configurations will compile the project and will execute the *test.sh* script. Every time you commit something, GitHub actions run on GitHub servers and will report the [status](https://github.com/hasindu2008/slow5-template/actions/workflows/c-cpp.yml).
 
 ## Miscellaneous files
 
